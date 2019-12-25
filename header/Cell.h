@@ -14,7 +14,7 @@ public:
     {
         size = 30;
         index = 0;
-        texture.loadFromFile("D:\\qt project\\MinesweeperPro\\Images\\UnCheckedCell.png");
+        texture.loadFromFile("Images\\UnCheckedCell.png");
         shape.setSize(sf::Vector2f(size, size));
         shape.setTexture(&texture);
         isMine = false;
