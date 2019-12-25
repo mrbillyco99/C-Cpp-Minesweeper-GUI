@@ -12,7 +12,7 @@ void Player::ClickOnNonEmptyCell(std::vector<Cell*> &cell, std::vector<Cell*> ce
             {
                 if ((*it)->IsMine() == true)
                 {
-                    (*it)->SetTexture("D:\\qt project\\MinesweeperPro\\Images\\ExplodedMine.png");
+                    (*it)->SetTexture("Images\\ExplodedMine.png");
                     isMineExploded = true;
                 }
                 DeleteCell(cell, i);
