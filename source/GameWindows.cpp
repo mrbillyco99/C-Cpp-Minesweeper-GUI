@@ -80,7 +80,7 @@ void Game::CreateGameWindow()
 
     sf::Font font;
     sf::Text win;
-    font.loadFromFile("D:\\qt project\\MinesweeperPro\\Fonts\\arial.ttf");
+    font.loadFromFile("Fonts\\arial.ttf");
     win.setFont(font);
     win.setFillColor(sf::Color::Green);
     win.setString("You Win!");
@@ -88,7 +88,7 @@ void Game::CreateGameWindow()
     win.setPosition(x / 2 - 100, y / 2);
 
     sf::Text lose;
-    font.loadFromFile("D:\\qt project\\MinesweeperPro\\Fonts\\arial.ttf");
+    font.loadFromFile("Fonts\\arial.ttf");
     lose.setFont(font);
     lose.setFillColor(sf::Color::Red);
     lose.setString("You Lose!");
@@ -169,7 +169,7 @@ void Game::CreateSettingsWindow()
 
     sf::Font font;
     sf::Text start;
-    font.loadFromFile("D:\\qt project\\MinesweeperPro\\Fonts\\arial.ttf");
+    font.loadFromFile("Fonts\\arial.ttf");
     start.setFont(font);
     start.setFillColor(sf::Color::White);
     start.setString("Start");
