@@ -133,32 +133,32 @@ void Game::SetNumbers()
                         switch (countSurroundedMines)
                         {
                         case 0:
-                                cell1[i]->SetTexture("D:\\qt project\\MinesweeperPro\\Images\\EmptyCell.png");
+                                cell1[i]->SetTexture("Images\\EmptyCell.png");
                                 cell1[i]->isEmpty = true;
                                 break;
                         case 1:
-                                cell1[i]->SetTexture("D:\\qt project\\MinesweeperPro\\Images\\One.png");
+                                cell1[i]->SetTexture("Images\\One.png");
                                 break;
                         case 2:
-                                cell1[i]->SetTexture("D:\\qt project\\MinesweeperPro\\Images\\Two.png");
+                                cell1[i]->SetTexture("Images\\Two.png");
                                 break;
                         case 3:
-                                cell1[i]->SetTexture("D:\\qt project\\MinesweeperPro\\Images\\Three.png");
+                                cell1[i]->SetTexture("Images\\Three.png");
                                 break;
                         case 4:
-                                cell1[i]->SetTexture("D:\\qt project\\MinesweeperPro\\Images\\Four.png");
+                                cell1[i]->SetTexture("Images\\Four.png");
                                 break;
                         case 5:
-                                cell1[i]->SetTexture("D:\\qt project\\MinesweeperPro\\Images\\Five.png");
+                                cell1[i]->SetTexture("Images\\Five.png");
                                 break;
                         case 6:
-                                cell1[i]->SetTexture("D:\\qt project\\MinesweeperPro\\Images\\Six.png");
+                                cell1[i]->SetTexture("Images\\Six.png");
                                 break;
                         case 7:
-                                cell1[i]->SetTexture("D:\\qt project\\MinesweeperPro\\Images\\Seven.png");
+                                cell1[i]->SetTexture("Images\\Seven.png");
                                 break;
                         case 8:
-                                cell1[i]->SetTexture("D:\\qt project\\MinesweeperPro\\Images\\Eighth.png");
+                                cell1[i]->SetTexture("Images\\Eighth.png");
                                 break;
                         }
                         countSurroundedMines = 0;
@@ -172,7 +172,7 @@ void Game::SetMines()
         for (int i = 0; i < numberOfMines; i++)
         {
                 mineIndex = rand() % numberOfCells;
-                cell1[mineIndex]->SetTexture("D:\\qt project\\MinesweeperPro\\Images\\Mine.png");
+                cell1[mineIndex]->SetTexture("Images\\Mine.png");
                 cell1[mineIndex]->isMine = true;
         }
 }
