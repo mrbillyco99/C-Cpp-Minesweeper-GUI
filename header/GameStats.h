@@ -21,7 +21,7 @@ public:
                 startButtonX = 0;
                 startButtonY = 0;
 
-                textureStartButton.loadFromFile("D:\\qt project\\MinesweeperPro\\Images\\StartButton.png");
+                textureStartButton.loadFromFile("Images\\StartButton.png");
                 startButton.setSize(sf::Vector2f(size, size));
                 startButton.setTexture(&textureStartButton);
 
@@ -31,7 +31,7 @@ public:
                 timer.setSize(sf::Vector2f(size * 2, size));
                 timer.setFillColor(sf::Color::Black);
 
-                font.loadFromFile("D:\\qt project\\MinesweeperPro\\Fonts\\arial.ttf");
+                font.loadFromFile("Fonts\\arial.ttf");
                 minesCounterText.setFont(font);
                 minesCounterText.setString(std::to_string(minesLeft));
                 minesCounterText.setCharacterSize(20);
