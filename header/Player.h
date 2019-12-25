@@ -17,9 +17,9 @@ private:
 public:
         Player(int n) : sqrtNumberOfCells(n)
         {
-                textureFlag.loadFromFile("D:\\qt project\\MinesweeperPro\\Images\\Flag.png");
-                textureUnCheckedCell.loadFromFile("D:\\qt project\\MinesweeperPro\\Images\\UnCheckedCell.png");
-                textureMineBlow.loadFromFile("D:\\qt project\\MinesweeperPro\\Images\\ExplodedMine.png");
+                textureFlag.loadFromFile("Images\\Flag.png");
+                textureUnCheckedCell.loadFromFile("Images\\UnCheckedCell.png");
+                textureMineBlow.loadFromFile("Images\\ExplodedMine.png");
                 isFlagPlaced = false;
         }
 
