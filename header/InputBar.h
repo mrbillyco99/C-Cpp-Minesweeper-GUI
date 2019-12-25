@@ -14,7 +14,7 @@ private:
 public:
         InputBar(int yS, int xS, int yC, int xC, sf::String in) : ySize(yS), xSize(xS), yCoord(yC), xCoord(xC), input(in), startingInput(in)
         {
-                font.loadFromFile("D:\\qt project\\MinesweeperPro\\Fonts\\arial.ttf");
+                font.loadFromFile("Fonts\\arial.ttf");
 
                 inputShape.setFillColor(sf::Color::White);
                 inputShape.setSize(sf::Vector2f(xSize, ySize));
