@@ -4,12 +4,12 @@ Source Code GUI trò chơi Minesweeper (Dò mìn) bài tập nhóm cuối kì m�
 
 # Thành viên nhóm
 
-Hà Đức Trung - 17001516 (Nhóm trưởng)
-Trần Tuấn Thành - 17001655
-Nguyễn Văn Thắng - 17000231
-Nguyễn Ánh Nguyệt - 17000663
-Vũ Thị Như Quỳnh - 17001356
-Vũ Trung Kiên - 17000392
+* Hà Đức Trung - 17001516 (Nhóm trưởng)
+* Trần Tuấn Thành - 17001655
+* Nguyễn Văn Thắng - 17000231
+* Nguyễn Ánh Nguyệt - 17000663
+* Vũ Thị Như Quỳnh - 17001356
+* Vũ Trung Kiên - 17000392
 
 # Cách chơi
 
