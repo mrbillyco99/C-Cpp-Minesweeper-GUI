@@ -2,6 +2,15 @@
 
 Source Code GUI trò chơi Minesweeper (Dò mìn) bài tập nhóm cuối kì môn C/C++.
 
+# Thành viên nhóm
+
+Hà Đức Trung - 17001516 (Nhóm trưởng)
+Trần Tuấn Thành - 17001655
+Nguyễn Văn Thắng - 17000231
+Nguyễn Ánh Nguyệt - 17000663
+Vũ Thị Như Quỳnh - 17001356
+Vũ Trung Kiên - 17000392
+
 # Cách chơi
 
 Khi di chuyển chuột vào các text boxes "cell grid X * X" hoặc "mines", các text sẽ chuyển màu và chúng ta có thể nhập giá trị cho số hàng, cột của bảng trò chơi và số mìn. Sau đó, khi click chuột trái vào "Start" cửa sổ settings sẽ đóng lại và cửa sổ trò chơi sẽ hiện ra.
